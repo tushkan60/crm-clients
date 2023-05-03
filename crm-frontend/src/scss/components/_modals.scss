@@ -1,0 +1,112 @@
+.modals__subtitle {
+  margin-bottom: 32px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #333333;
+}
+
+.input-field {
+  border: none;
+  border-bottom:1px solid #C8C5D1;
+  opacity: 0.5;
+  border-radius: 0;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.modals__contact-table {
+  margin-bottom: 25px;
+  padding: 0;
+  background-color: rgba(200, 197, 209, 0.3);
+
+  .modals__contact-new,
+  .modals__contact-edit {
+    padding-top: 25px;
+  }
+
+  .contact__select {
+    height: 37px;
+    //padding: 10px 60px 10px 20px;
+    background-color: #E7E5EB;
+    border: 1px solid #C8C5D1;
+    border-radius: 0;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #333333;
+  }
+
+  .contact__input {
+    width: 150px;
+    background-color: rgba(200, 197, 209, -0.7);
+    border: 1px solid #C8C5D1;
+    border-radius: 0;
+  }
+
+  .contact__delete {
+    background-color: #E7E5EB;
+    border: 1px solid #C8C5D1;
+    border-radius: 0;
+  }
+
+  .modals__btn-new {
+    padding-left: 20px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+    background-image: url("../img/add_contact.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+}
+
+.modals__subtitle-id {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #B0B0B0;
+}
+
+.modals__save,
+.modals__delete-2 {
+  padding: 12px 35px;
+  background: #9873FF;
+  border-radius: 0;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  &:hover{
+    background: #9873FF;
+  }
+}
+
+.modals__close,
+.modals__delete-1,
+.modals__cancel {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #333333;
+}
+
+.modals__Text {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #333333;
+}

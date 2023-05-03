@@ -1,0 +1,103 @@
+.clients__title {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #333333;
+}
+
+.clients__table {
+  min-width: 728px;
+}
+
+.table__header {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #B0B0B0;
+  cursor: pointer;
+}
+
+.sort__active {
+transform: rotate(180deg);
+}
+
+.table__body {
+  background-color: var(--bs-white);
+
+  .body__string{
+    height: 70px;
+  }
+
+  .body__id{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #B0B0B0;
+  }
+  .body__fullname{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+  }
+  .body__date{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+  }
+  .body__time{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #B0B0B0;
+  }
+  .body__contacts{
+    width: 136px;
+  }
+
+  .table__btn-edit {
+    padding-left: 15px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+    background-image: url("../img/edit.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+
+  .table__btn-delete {
+    padding-left: 15px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+    background-image: url("../img/delete.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+}
+
+.clients__btn-new {
+  padding: 13px 26px;
+  padding-left: 59px;
+  border: 1px solid #9873FF;
+  border-radius: 0;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #9873FF;
+  background-image: url("../img/add.svg");
+  background-repeat: no-repeat;
+  background-position: 26px center;
+}

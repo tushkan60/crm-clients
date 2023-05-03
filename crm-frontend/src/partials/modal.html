@@ -1,0 +1,182 @@
+<section class="modals">
+  <div class="graph-modal">
+    <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="newClient">
+      <button class="btn-reset js-modal-close graph-modal__close" aria-label="Закрыть модальное окно"></button>
+      <div class="graph-modal__content">
+        <form class="modals__form-new row g-3 needs-validation justify-content-center" novalidate>
+          <h2 class="modals__subtitle">
+            Новый клиент
+          </h2>
+          <div class="row justify-content-center">
+            <div class="modals__surname surname mb-4">
+              <input
+                type="text"
+                class="surname__input form-control input-field"
+                id="newSurname"
+                placeholder="Фамилия*"
+                required
+              />
+              <div class="surname__valid invalid-feedback">Укажите фамилию.</div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="modals__name name mb-4">
+              <input
+                type="text"
+                class="name__input form-control input-field"
+                id="newName"
+                placeholder="Имя*"
+                required
+              />
+              <div class="name__valid invalid-feedback">Укажите Имя.</div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="modals__fathername fathername mb-4">
+              <input
+                type="text"
+                class="fathername__input form-control input-field"
+                id="newFathername"
+                placeholder="Отчество"
+              />
+            </div>
+          </div>
+          <div class="modals__contact-table row justify-content-center">
+            <div class="modals__contact-new contact">
+            </div>
+            <div class="mb-4 col-12 centered">
+              <button class="modals__btn-new btn" type="button" id="addNewContact">
+                Добавить контакт
+              </button>
+            </div>
+          </div>
+          <div class="col-12 row justify-content-center">
+            <div class="mb-2 col-12 centered">
+              <button class="modals__save btn" type="submit" id="saveNewClient">
+                Сохранить
+              </button>
+            </div>
+          </div>
+        </form>
+        <div class="row justify-content-center">
+          <div class="mb-2 col-5 centered">
+            <button class="modals__close btn-reset js-modal-close" id="closeNewClient" aria-label="Закрыть модальное окно">
+              Отмена
+            </button>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="mb-2 col-12 centered">
+            <p class="modals__error-add text-bg-danger"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="editClient">
+      <button class="btn-reset js-modal-close graph-modal__close" aria-label="Закрыть модальное окно"></button>
+      <div class="graph-modal__content">
+        <form class="modals__form-edit row g-3 needs-validation  justify-content-center" novalidate>
+          <h2 class="modals__subtitle">
+          <span class="modals__subtitle-text">
+            Изменить данные
+          </span>
+            <span class="modals__subtitle-id">
+          </span>
+          </h2>
+          <div class="row justify-content-center">
+            <div class="modals__surname surname mb-4">
+              <input
+                type="text"
+                class="surname__input form-control input-field"
+                id="editSurname"
+                placeholder="Фамилия*"
+                required
+              />
+              <div class="surname__valid invalid-feedback">Укажите фамилию.</div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="modals__name name mb-4">
+              <input
+                type="text"
+                class="name__input form-control input-field"
+                id="editName"
+                placeholder="Имя*"
+                required
+              />
+              <div class="name__valid invalid-feedback">Укажите Имя.</div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="modals__fathername fathername mb-4">
+              <input
+                type="text"
+                class="fathername__input form-control input-field"
+                id="editFathername"
+                placeholder="Отчество"
+              />
+            </div>
+          </div>
+          <div class="modals__contact-table row justify-content-center">
+            <div class="modals__contact-edit contact">
+            </div>
+            <div class="mb-4 col-12 centered">
+              <button class="modals__btn-new btn" type="button" id="editNewContact">
+                Добавить контакт
+              </button>
+            </div>
+          </div>
+          <div class="col-12 row justify-content-center">
+            <div class="mb-2 col-12 centered">
+              <button class="modals__save btn" type="submit">
+                Сохранить
+              </button>
+            </div>
+          </div>
+        </form>
+        <div class="row justify-content-center">
+          <div class="mb-2 col-12 centered">
+            <button class="modals__delete-1 btn-reset" aria-label="Закрыть модальное окно">
+              Удалить клиента
+            </button>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="mb-2 col-12 centered">
+            <p class="modals__error-edit text-bg-danger"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="deleteClient">
+      <button class="btn-reset js-modal-close graph-modal__close" aria-label="Закрыть модальное окно"></button>
+      <div class="graph-modal__content">
+        <h2 class="modals__subtitle centered">
+          Удалить клиента
+        </h2>
+        <p class="modals__Text centered">
+          Вы действительно хотите удалить данного клиента?
+        </p>
+        <div class="row justify-content-center">
+          <div class="mb-2 col-12 centered">
+            <button class="modals__delete-2 btn-reset" aria-label="Закрыть модальное окно">
+              Удалить
+            </button>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="mb-2 col-12 centered">
+            <button class="modals__cancel btn-reset js-modal-close" aria-label="Закрыть модальное окно">
+              Отмена
+            </button>
+          </div>
+          <div class="row justify-content-center">
+            <div class="mb-2 col-12 centered">
+              <p class="modals__error-del text-bg-danger"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

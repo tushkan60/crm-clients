@@ -1,0 +1,45 @@
+<section class="clients">
+  <div class="container-fluid">
+    <div class="row">
+      <h1 class="clients__title mb-4">Клиенты</h1>
+      <div class="content flex-nowrap overflow-auto">
+        <table class="clients__table table table-hover align-middle">
+          <thead>
+          <tr>
+            <th id="idCol" class="table__id id table__header align-items-center" scope="col">
+              <span>ID</span>
+              <img loading="lazy" src="/img/sort.svg" class="id__sort" alt="sort-arrow">
+            </th>
+            <th id="fullnameCol" class="table__fullname table__header" scope="col">
+              <span>Фамилия Имя Отчество</span>
+              <img loading="lazy" src="/img/sort.svg" class="fullname__sort" alt="sort-arrow">
+              <span class="letter-sort">А-Я</span>
+              <span class="letter-sort d-none">Я-А</span>
+            </th>
+            <th id="createCol" class="table__create table__header" scope="col">
+              <span>Дата и время создания</span>
+              <img loading="lazy" src="/img/sort.svg" class="create__sort" alt="sort-arrow">
+            </th>
+            <th id="changeCol" class="table__change table__header" scope="col">
+              <span>Последние изменения</span>
+              <img loading="lazy" src="/img/sort.svg" class="change__sort" alt="sort-arrow">
+            </th>
+            <th id="contactsCol" class="table__contacts table__header" scope="col">Контакты</th>
+            <th id="actionsCol" class="table__actions table__header" scope="col">Действия</th>
+            <th scope="col"></th>
+          </tr>
+          </thead>
+          <tbody class="table__body body">
+          </tbody>
+        </table>
+       </div>
+    </div>
+    <div class="row">
+      <div class="text-center align-items-center container col-12 centered mb-5">
+        <button class="clients__btn-new btn" data-graph-path="newClient">
+          Добавить клиента
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
